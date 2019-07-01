@@ -1,0 +1,73 @@
+*{
+     margin: 0;
+     padding: 0;	
+}
+wrapper{
+	  width: 1170px;
+	  margin:auto;
+}
+.button5{
+     float: right;
+     list-style: none;
+     margin-top: 30px;
+}
+.button5 ul{
+     display: inline-block;
+}
+.button5 ul a{
+     background: rgb(8, 8, 8);
+     color: rgb(6, 176, 255, 0.671);
+     border: 1px solid rgb(250, 250, 250); 
+     transition: 0.6s ease;
+     font-size: 200px;
+     padding: 50px 30px;
+     position:absolute;
+     top: 85%;
+     left: 5%;
+}
+.button5 ul a:hover{
+     background: #fff;
+     color: rgb(6, 176, 255, 0.671);
+}
+body{
+background-image:url(Untitled-22.jpg);
+     height: 100vh;
+     -webkit-background-size:cover;
+     background-size:cover;
+     background-position: center center;
+     position: relative;
+}
+.welcome-text{
+     position: center;
+     width: 5000px;
+     height: 600px;
+     margin: 20% 30%;
+     text-align: center;
+}
+.welcome-text h1{
+     text-align: center;
+     color: rgb(255, 255, 255);
+     text-transform: uppercase;
+     font-size: 200px;
+     position: center;
+}
+.welcome-text a{
+     position: center;
+     border: 1px solid #fff;
+     padding: 50px 30px;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 300px;
+     margin-top: 600px;
+     display: inline-block;
+     color: rgb(255, 255, 255);
+ 
+}
+.welcome-text a:hover{
+     position: center;
+     background: #fff;
+     color: #333;
+}
+
+
+      

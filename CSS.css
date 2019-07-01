@@ -1,0 +1,164 @@
+body {
+background-image:url(Untitled-22.jpg);
+height: 100vh;
+-webkit-background-size:cover;
+background-size:cover;
+background-position: center center;
+position: relative;
+text-align: center;
+padding: 100px;
+padding-top: 10px;
+}
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color:rosybrown;
+color: white;
+}
+h2 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: white;
+background-color: brown;
+}
+.svgClass {
+background-color:gray;
+float:left;
+width:70%;
+color:#fff;
+padding:10px;
+box-sizing:border-box;
+}
+
+polygon{
+fill:white; 
+transition: 1s fill;
+}
+
+polygon:hover {
+fill: rgb(255, 255, 255);
+}
+
+.lideta { 
+    stroke:yellow;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(146, 144, 252);
+    fill-opacity: 50%;
+}
+
+.kirkos{
+    stroke:greenyellow;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(48, 212, 185);
+    fill-opacity: 10%;}
+.nifas-silk{
+    stroke:rgb(32, 128, 218);
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(213, 228, 146); 
+    fill-opacity: 50%;
+}
+
+.akaki-kaliti {
+    stroke:rgb(250, 110, 238);
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(42, 23, 59);
+    fill-opacity: 10%;
+}
+
+.yeka{
+    stroke:lawngreen;
+    stroke-width: 2px;
+    stroke-dasharray: 3;
+    fill:rgb(205, 247, 127);
+    fill-opacity: 10%;
+}
+
+.bole{
+    stroke:green;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(253, 114, 179); 
+    fill-opacity: 10%;
+}
+
+.kolfe-keraniyo{
+    stroke: khaki;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(177, 128, 241); 
+    fill-opacity: 50%;
+}
+
+.addis-ketema{
+    stroke:palegoldenrod;
+    stroke-width: 2px;
+    stroke-dasharray: 3;
+    fill:rgb(240, 205, 108);
+    fill-opacity: 50%;
+}
+
+.arada{stroke:peru;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(54, 58, 114); 
+    fill-opacity: 50%;
+}
+
+.gulele{
+    stroke:orange;
+    stroke-width: 2px; 
+    stroke-dasharray: 3; 
+    fill:rgb(69, 87, 7);
+    fill-opacity: 50%;
+}
+.removed{
+display: none;
+}
+button{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    background:gray;
+    border:none;
+    outline: none;
+    left: 0%;
+    width: 260px;
+    text-align: left;
+}
+#button:hover{
+    fill: rgb(221, 83, 83);
+}
+#sidebar{
+    text-align: left;
+    float:right;
+    width:30%;
+    background:none;
+    color:#fff;
+    padding:0px;
+    box-sizing:border-box;
+}
+.button5{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.button5 ul{
+    display: inline-block;
+}
+.button5 ul a{
+    background: rgb(8, 8, 8);
+    color: rgb(6, 176, 255, 0.671);
+    border: 1px solid rgb(0, 0, 0); 
+    transition: 0.6s ease;
+    font-size: 50px;
+    padding: 50px 30px;
+    position:absolute;
+    top: 120%;
+    left: 5%;
+}
+.button5 ul a:hover{
+    background: #fff;
+    color: rgb(6, 176, 255, 0.671);
+}
